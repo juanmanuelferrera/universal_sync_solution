@@ -73,7 +73,9 @@ By following this guide, you'll add:
 ```
 TASK: Implement Universal Multi-Device Sync System
 
-CONTEXT: I have an existing web application that needs multi-device synchronization. Users should be able to work on different devices (phones, tablets, laptops) and have their data automatically synchronized with zero data loss.
+CONTEXT: I have an existing web application that needs multi-device synchronization. 
+Users should be able to work on different devices (phones, tablets, laptops) and have 
+their data automatically synchronized with zero data loss.
 
 REQUIREMENTS:
 1. Implement time-based staleness detection (3-minute threshold)
@@ -122,7 +124,8 @@ User Experience:
 - Clear error messages for user action
 
 MY APPLICATION DETAILS:
-- Framework: [YOUR_BACKEND_FRAMEWORK] (Node.js/Express, Python/Django, PHP/Laravel, etc.)
+- Framework: [YOUR_BACKEND_FRAMEWORK] 
+  (Node.js/Express, Python/Django, PHP/Laravel, etc.)
 - Database: [YOUR_DATABASE] (MySQL, PostgreSQL, SQLite, etc.)  
 - Frontend: [YOUR_FRONTEND] (React, Vue, Angular, vanilla JS, etc.)
 - Entity Types: [YOUR_DATA_TYPES] (e.g., tasks, notes, lists, settings)
@@ -152,7 +155,8 @@ Phase 3 - Delta Sync (Optional but Recommended):
 
 Phase 4 - Frontend Sync Manager:
 1. Create UniversalSyncManager base class with configuration
-2. Implement app-specific storage methods (localStorage, Redux, etc.)
+2. Implement app-specific storage methods 
+   (localStorage, Redux, etc.)
 3. Add automatic staleness detection (3-minute threshold)
 4. Implement change tracking for delta sync
 5. Add user-friendly sync notifications
@@ -206,7 +210,9 @@ PERFORMANCE REQUIREMENTS:
 - Memory-efficient change tracking
 - Battery-friendly mobile behavior
 
-Please implement this system following the Universal Sync Pattern described, ensuring zero data loss, friendly user experience, and production-ready reliability. Include all necessary code, configuration, and documentation for a complete implementation.
+Please implement this system following the Universal Sync Pattern described, ensuring 
+zero data loss, friendly user experience, and production-ready reliability. Include all 
+necessary code, configuration, and documentation for a complete implementation.
 ```
 
 ---
