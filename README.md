@@ -1,3 +1,5 @@
+<img width="497" height="380" alt="Synchronization" src="https://github.com/user-attachments/assets/685bcac8-ef5c-4347-8d30-a7b6b28d88e8" />
+
 # 🔄 Universal Stale Data Protection & Sync System
 *A robust pattern for multi-device data synchronization*
 
